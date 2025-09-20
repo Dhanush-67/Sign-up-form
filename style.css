@@ -15,6 +15,54 @@ body {
   flex-basis: 40%;
   background-image: url("background.jpg");
   background-size: cover;
+  display: flex;
+}
+
+label[for="first_name"] {
+  font-size: 18px;
+}
+label[for="last_name"] {
+  font-size: 18px;
+}
+label[for="email"] {
+  font-size: 18px;
+}
+label[for="password"] {
+  font-size: 18px;
+}
+label[for="phone-number"] {
+  font-size: 18px;
+}
+label[for="confirm-password"] {
+  font-size: 18px;
+}
+
+.form-title {
+  font-size: 24px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.banner {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 100px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.banner-text {
+  font-size: 24px;
+  color: #333;
+  align-self: center;
+}
+
+.logo img {
+  width: 100px;
+  padding-top: 20px;
+  height: auto;
 }
 
 .right {
@@ -37,15 +85,37 @@ body {
   padding-left: 25px;
 }
 
+.form-header {
+  font-size: 24px;
+  text-align: left;
+  margin-top: 20px;
+  /* padding-left: 20px; */
+  color: rgb(0, 0, 0);
+}
+
 .body {
-  flex: 1;
+  flex: 1.5;
   background-color: #1e7229;
   font-size: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* display: flex; */
   padding-left: 25px;
 }
+
+.body form {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* .body form .left-column {
+  flex: 1;
+  text-align: left;
+}
+
+.body form .right-column {
+  flex: 1;
+  text-align: right;
+} */
 
 .footer {
   flex: 1;
@@ -66,7 +136,6 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  /* margin: 4px 2px; */
   cursor: pointer;
   border-radius: 12px;
 }
